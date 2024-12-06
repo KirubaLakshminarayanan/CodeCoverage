@@ -41,5 +41,9 @@ def test_divide(calculator):
         calculator.divide(1, 0)
 
 
+def test_modulus(calculator):
+    assert calculator.modulus(10, 3) == 1
+
+
 if __name__ == "__main__":
     pytest.main()
